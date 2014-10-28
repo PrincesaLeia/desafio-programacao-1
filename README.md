@@ -23,7 +23,7 @@ Sua aplicação web DEVE:
 1. Aceitar (via um formulário) o upload de arquivos separados por TAB com as seguintes colunas: purchaser name, item description, item price, purchase count, merchant address, merchant name. Você pode assumir que as colunas estarão sempre nesta ordem, que sempre haverá dados em cada coluna, e que sempre haverá uma linha de cabeçalho. Um arquivo de exemplo chamado example_input.tab está incluído neste repositório.
 1. Interpretar ("parsear") o arquivo recebido, normalizar os dados, e salvar corretamente a informação em um banco de dados relacional.
 1. Exibir a receita bruta total representada pelo arquivo enviado após o upload + parser.
-1. Ser escrita obrigatoriamente em Ruby 1.9+ ou Python 2.6+ (caso esteja entrevistando para uma vaga específica, utilize a linguagem solicitada pela vaga).
+1. Ser escrita obrigatoriamente em Ruby 2.1+ ou Python 2.7+ (caso esteja entrevistando para uma vaga específica, utilize a linguagem solicitada pela vaga).
 1. Ser simples de configurar e rodar, funcionando em ambiente compatível com Unix (Linux ou Mac OS X). Ela deve utilizar apenas linguagens e bibliotecas livres ou gratuitas.
 
 Sua aplicação web não precisa:
