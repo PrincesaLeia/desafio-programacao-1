@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nome comprador:</strong>
+  <%= @venda.nome_comprador %>
+</p>
+
+<p>
+  <strong>Descricao item:</strong>
+  <%= @venda.descricao_item %>
+</p>
+
+<p>
+  <strong>Preco item:</strong>
+  <%= @venda.preco_item %>
+</p>
+
+<p>
+  <strong>Qtde compra:</strong>
+  <%= @venda.qtde_compra %>
+</p>
+
+<p>
+  <strong>Endereco vendedor:</strong>
+  <%= @venda.endereco_vendedor %>
+</p>
+
+<p>
+  <strong>Nome vendedor:</strong>
+  <%= @venda.nome_vendedor %>
+</p>
+
+<%= link_to 'Edit', edit_venda_path(@venda) %> |
+<%= link_to 'Back', vendas_path %>

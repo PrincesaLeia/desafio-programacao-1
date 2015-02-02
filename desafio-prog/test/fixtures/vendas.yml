@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nome_comprador: MyString
+  descricao_item: MyString
+  preco_item: 1.5
+  qtde_compra: 1
+  endereco_vendedor: MyString
+  nome_vendedor: MyString
+
+two:
+  nome_comprador: MyString
+  descricao_item: MyString
+  preco_item: 1.5
+  qtde_compra: 1
+  endereco_vendedor: MyString
+  nome_vendedor: MyString
