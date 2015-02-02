@@ -1,14 +1,14 @@
-# Desafio de programação 1 master
+Desafio de programação 1 master
 
 Este programa permite importar um arquivo pré-definido do tipo tsv (tabel separet values) e armazená-lo em um banco de dados relacional. 
 
-## Ambiente de desenvolvimento utilizado:
+Ambiente de desenvolvimento utilizado:
 	Ruby 2.1.5
 	Rails 4.2.0
 	OS: Ubuntu 14.10 - Utopic Unicorn
 	DB: Sqlite3
 
-## Instalação e execução:
+Instalação e execução:
 	bundle install
 	rake db:create
 	rake db:migrate
